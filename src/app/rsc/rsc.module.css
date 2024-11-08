@@ -1,0 +1,81 @@
+/* rsc.module.css */
+
+/* Main container */
+.container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Added local class for ul */
+.ulList {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.ulList li {
+  margin-bottom: 10px;
+}
+
+.ulList li a {
+  color: #0077b6;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.ulList li a:hover {
+  color: #00aaff;
+}
+
+/* Responsive Styles */
+
+/* Mobile screens (max-width: 640px) */
+@media (max-width: 640px) {
+  .sectionTitle {
+    font-size: 1.8rem; /* Smaller section titles on mobile */
+  }
+
+  .ulList li a {
+    font-size: 1.1rem; /* Smaller links on mobile */
+  }
+
+  .container {
+    padding: 15px; /* Less padding on mobile */
+  }
+}
+
+/* Tablet screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .sectionTitle {
+    font-size: 2rem; /* Adjust section title size for tablets */
+  }
+
+  .ulList li a {
+    font-size: 1.2rem; /* Maintain the font size of links on tablets */
+  }
+
+  .container {
+    padding: 18px; /* Less padding for tablet devices */
+  }
+}
+
+/* Desktop screens (min-width: 1024px) */
+@media (min-width: 1024px) {
+  .sectionTitle {
+    font-size: 2.5rem; /* Default section title size for desktop */
+  }
+
+  .ulList li a {
+    font-size: 1.3rem; /* Default font size for links on desktop */
+  }
+}

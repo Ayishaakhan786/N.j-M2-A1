@@ -2,20 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Global Body Styles */
+body {
+  background-color: black;
+  color: #ffffff; /* Default text color white */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6; /* Improved line spacing for readability */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Mobile Screens */
+@media (max-width: 640px) {
+  body {
+    font-size: 0.875rem; /* Smaller font size for mobile */
+    padding: 10px; /* Add some padding on smaller screens */
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+/* Tablet Screens */
+@media (max-width: 768px) {
+  body {
+    font-size: 1rem; /* Default font size for tablets */
+  }
+}
+
+/* Desktop Screens */
+@media (min-width: 1024px) {
+  body {
+    font-size: 1.125rem; /* Slightly larger font for desktop */
+  }
 }

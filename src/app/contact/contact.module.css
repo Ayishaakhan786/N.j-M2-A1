@@ -1,0 +1,95 @@
+/* Contact.module.css */
+
+/* Main container styles */
+.container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+}
+
+/* Heading styles */
+.heading {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Subheading styles */
+.subheading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #444;
+}
+
+/* Link styles */
+.link {
+  color: #0077b6;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #00aaff;
+}
+
+/* Responsive Styles */
+
+/* For mobile screens (max-width: 640px) */
+@media (max-width: 640px) {
+  .heading {
+    font-size: 2rem; /* Smaller heading on mobile */
+  }
+
+  .subheading {
+    font-size: 1.5rem; /* Smaller subheading on mobile */
+  }
+
+  .link {
+    font-size: 1.1rem; /* Slightly smaller links */
+  }
+
+  .container {
+    padding: 15px; /* Less padding on mobile */
+  }
+}
+
+/* For tablet screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .heading {
+    font-size: 2.2rem; /* Heading size adjusted for tablets */
+  }
+
+  .subheading {
+    font-size: 1.7rem; /* Adjust subheading size for tablets */
+  }
+
+  .link {
+    font-size: 1.2rem; /* Maintain link size for tablets */
+  }
+
+  .container {
+    padding: 18px; /* Slightly less padding for tablets */
+  }
+}
+
+/* For larger screens (min-width: 1024px) */
+@media (min-width: 1024px) {
+  .heading {
+    font-size: 2.5rem; /* Default heading size for desktops */
+  }
+
+  .subheading {
+    font-size: 1.8rem; /* Default subheading size */
+  }
+
+  .link {
+    font-size: 1.3rem; /* Link size for desktops */
+  }
+
+  .container {
+    padding: 25px; /* Normal padding for desktop */
+  }
+}

@@ -1,0 +1,72 @@
+/* post02.module.css */
+
+/* Container for the entire post */
+.container {
+    display: flex;
+    flex-direction: column; /* Stack content vertically by default */
+    background-color: black;
+    color: white;
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* Heading */
+  .heading {
+    font-size: 2rem; /* Default heading size */
+    margin-bottom: 10px;
+    text-align: center; /* Center the heading */
+  }
+  
+  /* Paragraph content */
+  .content {
+    font-size: 1.2rem; /* Default content size */
+    line-height: 1.6;
+    text-align: justify; /* Justify text for readability */
+  }
+  
+  /* Mobile devices (max-width: 640px) */
+  @media (max-width: 640px) {
+    .container {
+      padding: 10px; /* Reduced padding for mobile */
+    }
+  
+    .heading {
+      font-size: 1.5rem; /* Smaller font size for mobile */
+    }
+  
+    .content {
+      font-size: 1rem; /* Smaller text for better mobile readability */
+    }
+  }
+  
+  /* Tablet devices (max-width: 768px) */
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  
+    .heading {
+      font-size: 1.8rem; /* Slightly smaller font size for tablet */
+    }
+  
+    .content {
+      font-size: 1.1rem; /* Adjust content font for tablet */
+    }
+  }
+  
+  /* Desktop devices (min-width: 1024px) */
+  @media (min-width: 1024px) {
+    .container {
+      padding: 20px; /* Standard padding for desktop */
+    }
+  
+    .heading {
+      font-size: 2rem; /* Larger font size for desktop */
+    }
+  
+    .content {
+      font-size: 1.2rem; /* Standard content size for desktop */
+    }
+  }
+  

@@ -1,0 +1,61 @@
+/* Footer.module.css */
+
+/* Footer container styles */
+.footer-container {
+  background-color: #333; /* Dark background */
+  color: white; /* White text */
+  padding: 20px;
+  text-align: center;
+  font-size: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Footer text style */
+.footer-container h4 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+/* Span inside h4 for added style */
+.footer-container span {
+  font-weight: bold;
+}
+
+/* Responsive Styles */
+
+/* For mobile screens (max-width: 640px) */
+@media (max-width: 640px) {
+  .footer-container {
+    padding: 15px; /* Less padding on small screens */
+    font-size: 1rem; /* Smaller font for mobile */
+  }
+
+  .footer-container h4 {
+    font-size: 1rem; /* Adjust font size for mobile */
+  }
+}
+
+/* For tablet screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 18px; /* Slightly less padding for tablet */
+  }
+
+  .footer-container h4 {
+    font-size: 1.1rem; /* Adjust font size for tablet */
+  }
+}
+
+/* For larger screens (min-width: 1024px) */
+@media (min-width: 1024px) {
+  .footer-container {
+    padding: 20px; /* Default padding for desktop */
+  }
+
+  .footer-container h4 {
+    font-size: 1.2rem; /* Larger font size for desktop */
+  }
+}

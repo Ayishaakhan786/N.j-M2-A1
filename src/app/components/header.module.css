@@ -1,0 +1,80 @@
+/* Header.module.css */
+
+/* Header container styles */
+.header-container {
+    background-color: #333; /* Dark background */
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar items */
+  .navbar li {
+    margin: 0 15px;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  /* Navbar links on hover */
+  .navbar a:hover {
+    color: #f0f0f0; /* Light color on hover */
+  }
+  
+  /* Responsive Styles */
+  
+  /* For mobile screens (max-width: 640px) */
+  @media (max-width: 640px) {
+    .navbar {
+      flex-direction: column; /* Stack items vertically */
+      text-align: center;
+    }
+  
+    .navbar li {
+      margin: 10px 0; /* Add space between items */
+    }
+  
+    .navbar a {
+      font-size: 1.2rem; /* Slightly larger font for mobile */
+    }
+  }
+  
+  /* For tablet screens (max-width: 768px) */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column; /* Stack items vertically for tablet */
+    }
+  
+    .navbar li {
+      margin: 15px 0; /* Space between items */
+    }
+  }
+  
+  /* For larger screens (min-width: 1024px) */
+  @media (min-width: 1024px) {
+    .navbar {
+      flex-direction: row; /* Items in a row for larger screens */
+    }
+  
+    .navbar li {
+      margin: 0 20px; /* More space between items on desktop */
+    }
+  
+    .navbar a {
+      font-size: 1.1rem; /* Normal font size for desktop */
+    }
+  }
+  
