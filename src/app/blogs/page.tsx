@@ -4,7 +4,7 @@ import Post01 from "./images/Post01.jpg";
 import Post02 from "./images/Post02.jpg";
 import Post03 from "./images/Post03.jpg";
 import Post04 from "./images/Post04.png";
-import styles from "./Blogs.module.css";
+import styles from "./blogs.module.css"
 
 export default function Blogs() {
   return (

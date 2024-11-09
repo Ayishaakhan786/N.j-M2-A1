@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+
 import pic1 from "./main-img/Generative_AI_(2).png";
 import styles from "./page.module.css";
 

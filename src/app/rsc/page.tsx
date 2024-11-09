@@ -1,4 +1,4 @@
-import styles from './rsc.module.css';
+import styles from "./rsc.module.css";
 
 export default function Resources() {
   return (

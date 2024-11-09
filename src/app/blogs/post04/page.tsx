@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 import styles from "./post04.module.css";
 
 export default function Post04() {
